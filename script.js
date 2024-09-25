@@ -8,7 +8,7 @@ const recipes = [
             "Sale",
             "Pepe"
         ],
-        instructions: "Unire il latte e scimudin, sciogliere l'agar agar in poca acqua. Mescolare bene e versare in uno stampo.",
+        procedure: "Unire il latte e scimudin, sciogliere l'agar agar in poca acqua. Mescolare bene e versare in uno stampo.",
         allergens: ["Lattosio"]
     },
     {
@@ -24,7 +24,7 @@ const recipes = [
             "300GR Burro pomata",
             "18GR Sale fino"
         ],
-        instructions: "Unire uova e tuorlo, sciogliere il lievito in una parte di latte. Unire le farine, aggiungere latte e uova, una volta incordato aggiungere sale e burro pomata miscelati poco per volta. Lavorare fino ad ottenere un impasto liscio ed omogeneo. Far riposare a temperatura ambiente ben coperto per 30 min. Pezzare. COTTURA: 175° vapore x 40’.",
+        procedure: "Unire uova e tuorlo, sciogliere il lievito in una parte di latte. Unire le farine, aggiungere latte e uova, una volta incordato aggiungere sale e burro pomata miscelati poco per volta. Lavorare fino ad ottenere un impasto liscio ed omogeneo. Far riposare a temperatura ambiente ben coperto per 30 min. Pezzare. COTTURA: 175° vapore x 40’.",
         allergens: ["Glutine", "Uova", "Lattosio"]
     },
     {
@@ -40,7 +40,7 @@ const recipes = [
             "300GR Burro cremoso 16°C",
             "18GR Sale"
         ],
-        instructions: "Mettere le farine, il lievito, lo zucchero, le uova e il tuorlo in planetaria ed impastare con il gancio. Unire il burro mescolato al sale poco per volta. Lavorare fino ad ottenere un impasto liscio ed omogeneo. Far riposare a temperatura ambiente ben coperto per 30 min. Tagliare delle strisce di 40/50 grammi e fare una treccia a 5. Far lievitare a 27°C fino al raddoppio. Cuocere in forno a 170-180°C per circa 20/30 minuti a seconda della dimensione.",
+        procedure: "Mettere le farine, il lievito, lo zucchero, le uova e il tuorlo in planetaria ed impastare con il gancio. Unire il burro mescolato al sale poco per volta. Lavorare fino ad ottenere un impasto liscio ed omogeneo. Far riposare a temperatura ambiente ben coperto per 30 min. Tagliare delle strisce di 40/50 grammi e fare una treccia a 5. Far lievitare a 27°C fino al raddoppio. Cuocere in forno a 170-180°C per circa 20/30 minuti a seconda della dimensione.",
         allergens: ["Glutine", "Uova", "Lattosio"]
     },
     {
@@ -54,7 +54,7 @@ const recipes = [
             "150GR Burro cremoso 16°C",
             "20GR Sale"
         ],
-        instructions: "Mettere farina, latte, lievito di birra, acqua e zucchero invertito in planetaria, impastare con il gancio fino alla formazione dell’impasto. Unire il burro mescolato con il sale poco alla volta. Lavorare fino ad ottenere un impasto liscio ed omogeneo. Far riposare a temperatura ambiente ben coperto per 10-15 MIN. Quindi pezzare a 870GR e porli all’interno degli appositi stampi imburrati. Lasciar lievitare finché l’impasto non toccherà il coperchio. Cuocere a 190°C per 25 minuti circa.",
+        procedure: "Mettere farina, latte, lievito di birra, acqua e zucchero invertito in planetaria, impastare con il gancio fino alla formazione dell’impasto. Unire il burro mescolato con il sale poco alla volta. Lavorare fino ad ottenere un impasto liscio ed omogeneo. Far riposare a temperatura ambiente ben coperto per 10-15 MIN. Quindi pezzare a 870GR e porli all’interno degli appositi stampi imburrati. Lasciar lievitare finché l’impasto non toccherà il coperchio. Cuocere a 190°C per 25 minuti circa.",
         allergens: ["Glutine", "Lattosio"]
     },
     {
@@ -68,7 +68,7 @@ const recipes = [
             "Sale",
             "Pepe"
         ],
-        instructions: "Frullare tutti gli ingredienti, passare al cinese. Dressare in stampi. COTTURA: 90° vapore x 15’. 70% umidità.",
+        procedure: "Frullare tutti gli ingredienti, passare al cinese. Dressare in stampi. COTTURA: 90° vapore x 15’. 70% umidità.",
         allergens: ["Lattosio", "Uova"]
     },
     {
@@ -87,7 +87,7 @@ const recipes = [
             "25GR Mix erbe alpine",
             "12GR Finocchietto"
         ],
-        instructions: "Sciogliere il lievito in un litro dosatore con l’acqua. Pesare tutti gli altri ingredienti nella campana di una planetaria. Due giri e aggiungere l’acqua a filo. Impastare fino a quando il composto non si staccherà dai bordi. Far puntare 3 volte la sua massa iniziale. Stendere su tappetti microforati, spolverare farina 00 e farina per polenta. COTTURA: 187° 6’ convenzione valvola aperta.",
+        procedure: "Sciogliere il lievito in un litro dosatore con l’acqua. Pesare tutti gli altri ingredienti nella campana di una planetaria. Due giri e aggiungere l’acqua a filo. Impastare fino a quando il composto non si staccherà dai bordi. Far puntare 3 volte la sua massa iniziale. Stendere su tappetti microforati, spolverare farina 00 e farina per polenta. COTTURA: 187° 6’ convenzione valvola aperta.",
         allergens: ["Glutine", "Lattosio"]
     },
     {
@@ -100,7 +100,7 @@ const recipes = [
             "Sale",
             "Pepe"
         ],
-        instructions: "Frullare tutti gli ingredienti, imburrare gli stampi con pane di segale. Dressare in stampi. COTTURA: 165° convenzione x 15’-18’.",
+        procedure: "Frullare tutti gli ingredienti, imburrare gli stampi con pane di segale. Dressare in stampi. COTTURA: 165° convenzione x 15’-18’.",
         allergens: ["Uova", "Lattosio"]
     },
     {
@@ -115,7 +115,7 @@ const recipes = [
             "15GR Lievito compresso",
             "Aromi: Cumino e anice"
         ],
-        instructions: "Unire il tutto, riposo 30’. Pezzare 30 gr CAD. Spennellare tuorlo + panna. DECORARE!! COTTURA: 171° 20’ convenzione ventola media.",
+        procedure: "Unire il tutto, riposo 30’. Pezzare 30 gr CAD. Spennellare tuorlo + panna. DECORARE!! COTTURA: 171° 20’ convenzione ventola media.",
         allergens: ["Glutine", "Uova", "Lattosio"]
     },
     {
@@ -137,7 +137,7 @@ const recipes = [
             "Sale",
             "Pepe Bianco"
         ],
-        instructions: "Ammorbidire il burro, unire tutti gli ingredienti in una campana. Montare la lire sulla planetaria e impastare. Stampo c4, burro spray pan grattato. 70gr cad stampo. Appiattire e modellare con punta cucchiaio e acqua fredda. COTTURA 181° 13-15 MINUTI SU TEGLIA FORATA VENTOLA 3/4.",
+        procedure: "Ammorbidire il burro, unire tutti gli ingredienti in una campana. Montare la lire sulla planetaria e impastare. Stampo c4, burro spray pan grattato. 70gr cad stampo. Appiattire e modellare con punta cucchiaio e acqua fredda. COTTURA 181° 13-15 MINUTI SU TEGLIA FORATA VENTOLA 3/4.",
         allergens: ["Glutine", "Uova", "Lattosio"]
     },
     // Nuove ricette aggiunte
@@ -148,7 +148,13 @@ const recipes = [
             "250GR Burro d’alpe",
             "600GR Farina di riso"
         ],
-        instructions: "Unire tutti gli ingredienti e cuocere in forno a 100° gradi statico per 60 minuti, mescolando ogni 5 minuti durante la cottura ed il raffreddamento.",
+        procedure: "Unire tutti gli ingredienti e cuocere in forno a 100° gradi statico per 60 minuti, mescolando ogni 5 minuti durante la cottura ed il raffreddamento.",
+        get instructions() {
+            return this.procedure;
+        },
+        set instructions(value) {
+            this.procedure = value;
+        },
         allergens: ["Glutine"]
     },
     {
@@ -160,7 +166,7 @@ const recipes = [
             "60GR Evo",
             "1850GR H2O"
         ],
-        instructions: "Preparare la salamoia con 100GR H2O, 100GR Evo, 15GR Sale. COTTURA: 195° per 15-20’ in convenzione ventola media. 830GR x Teglia.",
+        procedure: "Preparare la salamoia con 100GR H2O, 100GR Evo, 15GR Sale. COTTURA: 195° per 15-20’ in convenzione ventola media. 830GR x Teglia.",
         allergens: ["Glutine"]
     },
     {
@@ -171,7 +177,7 @@ const recipes = [
             "40GR Evo",
             "1100GR H2O"
         ],
-        instructions: "Preparare la salamoia con 100GR H2O, 100GR Evo, 15GR Sale. 15’ prima puntata, 60’ seconda. COTTURA: 196° per 12’ in convenzione ventola media, 850GR x Teglia.",
+        procedure: "Preparare la salamoia con 100GR H2O, 100GR Evo, 15GR Sale. 15’ prima puntata, 60’ seconda. COTTURA: 196° per 12’ in convenzione ventola media, 850GR x Teglia.",
         allergens: ["Glutine"]
     },
     {
@@ -188,7 +194,7 @@ const recipes = [
             "60GR Sale fino",
             "100GR Olio evo"
         ],
-        instructions: "Impastare tutti gli ingredienti e lasciar lievitare fino al raddoppio. Cuocere in forno a 200°.",
+        procedure: "Impastare tutti gli ingredienti e lasciar lievitare fino al raddoppio. Cuocere in forno a 200°.",
         allergens: ["Glutine"]
     },
     {
@@ -205,7 +211,7 @@ const recipes = [
             "110GR Sale fino",
             "70GR Olio evo"
         ],
-        instructions: "Impastare tutti gli ingredienti e lasciar lievitare fino al raddoppio. Cuocere in forno a 200°.",
+        procedure: "Impastare tutti gli ingredienti e lasciar lievitare fino al raddoppio. Cuocere in forno a 200°.",
         allergens: ["Glutine"]
     },
     {
@@ -221,7 +227,7 @@ const recipes = [
             "55GR Sale fino",
             "75GR Olio evo"
         ],
-        instructions: "Impastare tutti gli ingredienti e lasciar lievitare fino al raddoppio. Cuocere in forno a 200°.",
+        procedure: "Impastare tutti gli ingredienti e lasciar lievitare fino al raddoppio. Cuocere in forno a 200°.",
         allergens: ["Glutine"]
     },
     {
@@ -2196,75 +2202,106 @@ const recipes = [
         },
 
     ];
-    
-  
 
+    function addRecipe() {
+    const name = document.getElementById("recipeName").value;
+    const ingredients = document.getElementById("ingredients").value.split(',').map(item => item.trim());
+    const procedure = document.getElementById("instructions").value;
+    const allergens = document.getElementById("allergens").value.split(',').map(item => item.trim());
 
-// Funzione per aggiungere una nuova ricetta
-function addRecipe() {
-    const recipeName = document.getElementById('recipeName').value.trim();
-    const recipeIngredients = document.getElementById('recipeIngredients').value.trim().split(',').map(ing => ing.trim());
-    const recipeInstructions = document.getElementById('recipeInstructions').value.trim();
-    const recipeAllergens = document.getElementById('recipeAllergens').value.trim().split(',').map(all => all.trim());
-
-    if (!recipeName || !recipeIngredients.length || !recipeInstructions) {
-        alert('Per favore, compila tutti i campi richiesti!');
-        return;
+    if (name && ingredients.length && procedure) {
+        const recipe = { name, ingredients, procedure, allergens };
+        recipes.push(recipe);
+        displayRecipes();
+        clearInputs();
+    } else {
+        alert("Per favore, completa tutti i campi.");
     }
-
-    const newRecipe = {
-        name: recipeName,
-        ingredients: recipeIngredients,
-        instructions: recipeInstructions,
-        allergens: recipeAllergens
-    };
-
-    recipes.push(newRecipe);
-    displayRecipes(recipes);
-    clearForm();
-}
-
-// Funzione per svuotare il modulo
-function clearForm() {
-    document.getElementById('recipeName').value = '';
-    document.getElementById('recipeIngredients').value = '';
-    document.getElementById('recipeInstructions').value = '';
-    document.getElementById('recipeAllergens').value = '';
 }
 
 // Funzione per visualizzare le ricette
-function displayRecipes(recipesToDisplay) {
-    const recipesList = document.getElementById('recipesList');
-    recipesList.innerHTML = '';
+function displayRecipes() {
+    const recipesList = document.getElementById("recipesList");
+    recipesList.innerHTML = ''; // Pulisce la lista delle ricette
 
-    if (recipesToDisplay.length === 0) {
-        recipesList.innerHTML = '<p>Nessuna ricetta trovata.</p>';
-        return;
-    }
-
-    recipesToDisplay.forEach(recipe => {
-        const recipeItem = document.createElement('div');
-        recipeItem.className = 'recipe-item';
-        recipeItem.innerHTML = `
-            <h3>${recipe.name}</h3>
-            <p><strong>Ingredienti:</strong> ${recipe.ingredients.join(', ')}</p>
-            <p><strong>Istruzioni:</strong> ${recipe.instructions}</p>
-            <p><strong>Allergeni:</strong> <span class="allergens">${recipe.allergens.join(', ')}</span></p>
+    recipes.forEach((recipe, index) => {
+        const recipeItem = document.createElement("div");
+        recipeItem.className = "recipe-item";
+        recipeItem.innerHTML = `<h3 onclick="toggleDetails(${index})">${recipe.name}</h3>
+                                <p class="allergens">Allergeni: ${recipe.allergens.join(', ')}</p>`;
+        
+        const details = document.createElement("div");
+        details.className = "table-container";
+        details.id = `details-${index}`;
+        details.innerHTML = `
+            <h4>Ingredienti</h4>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Ingredienti</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    ${recipe.ingredients.map(ingredient => `<tr><td>${ingredient}</td></tr>`).join('')}
+                </tbody>
+            </table>
+            <h4>Procedimento</h4>
+            <p>${recipe.procedure}</p>
         `;
+        
+        recipeItem.appendChild(details);
         recipesList.appendChild(recipeItem);
     });
 }
 
-// Funzione per cercare ricette
-function searchRecipes() {
-    const searchInput = document.getElementById('searchInput').value.trim().toLowerCase();
-    const filteredRecipes = recipes.filter(recipe => recipe.name.toLowerCase().includes(searchInput));
-    displayRecipes(filteredRecipes);
+// Funzione per alternare la visibilità dei dettagli della ricetta
+function toggleDetails(index) {
+    const details = document.getElementById(`details-${index}`);
+    details.style.display = details.style.display === "block" ? "none" : "block";
 }
 
-// Event Listeners
-document.getElementById('addRecipeBtn').addEventListener('click', addRecipe);
-document.getElementById('searchBtn').addEventListener('click', searchRecipes);
+// Funzione per pulire gli input
+function clearInputs() {
+    document.getElementById("recipeName").value = '';
+    document.getElementById("ingredients").value = '';
+    document.getElementById("procedure").value = '';
+    document.getElementById("allergens").value = '';
+}
 
-// Mostra tutte le ricette inizialmente
-displayRecipes(recipes);
+// Funzione di ricerca delle ricette
+document.getElementById("searchButton").addEventListener("click", function() {
+    const searchTerm = document.getElementById("recipeSearch").value.toLowerCase();
+    const filteredRecipes = recipes.filter(recipe => recipe.name.toLowerCase().includes(searchTerm));
+    
+    const recipesList = document.getElementById("recipesList");
+    recipesList.innerHTML = ''; // Pulisce la lista delle ricette
+
+    filteredRecipes.forEach((recipe, index) => {
+        const recipeItem = document.createElement("div");
+        recipeItem.className = "recipe-item";
+        recipeItem.innerHTML = `<h3 onclick="toggleDetails(${index})">${recipe.name}</h3>
+                                <p class="allergens">Allergeni: ${recipe.allergens.join(', ')}</p>`;
+        
+        const details = document.createElement("div");
+        details.className = "table-container";
+        details.id = `details-${index}`;
+        details.innerHTML = `
+            
+            <table>
+                <thead>
+                    <tr>
+                        <th>Ingredienti</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    ${recipe.ingredients.map(ingredient => `<tr><td>${ingredient}</td></tr>`).join('')}
+                </tbody>
+            </table>
+            <h4>Procedimento</h4>
+            <h5>${recipe.procedure}</h5>
+        `;
+        
+        recipeItem.appendChild(details);
+        recipesList.appendChild(recipeItem);
+    });
+});

@@ -1,17 +1,17 @@
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #eef2f3; /* Soft background color */
+    background-color: #A1CDA8;
     margin: 0;
     padding: 20px;
 }
 
 .container {
     max-width: 800px;
-    margin: auto;
+    margin: 0 auto;
     padding: 20px;
-    background-color: #ffffff; /* Container background */
+    background-color: #627264;
     border-radius: 8px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
 }
 
 header {
@@ -20,46 +20,48 @@ header {
 }
 
 h1 {
-    color: #d85d0d; /* Warm orange for title */
-    font-size: 2.5em; /* Title size */
+    color: #ffffff;
+    font-size: 3.5em;
     margin-bottom: 10px;
 }
 
 h2 {
-    color: #6B4F4F; /* Dark red for subtitles */
+    color: #0A100D;
 }
 
 input[type="text"],
 textarea {
-    width: 100%;
-    padding: 12px; /* Comfortable padding */
+    width: 90%;
+    padding: 12px;
     font-size: 16px;
-    border: 2px solid #d85d0d; /* Warm orange border */
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Input shadow */
-    margin-bottom: 20px; /* Space below inputs */
-    resize: vertical; /* Allow vertical resizing for textareas */
+    border: 8px solid #FE4A49;
+    border-radius: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
 }
 
-input[type="text"]:focus,
-textarea:focus {
-    border-color: #FF8C00; /* Active border color */
-    outline: none; /* Remove default outline */
+textarea {
+    height: 80px; /* Altezza fissa per il textarea */
+}
+
+input[type="text"]:focus, textarea:focus {
+    border-color: #922b2b;
+    outline: none;
 }
 
 button {
-    background-color: #d85d0d; /* Button background color */
+    background-color: #FE4A49;
     color: white;
     padding: 10px 15px;
-    border: none;
-    border-radius: 5px;
+    border: 8px solid #FE4A49;
+    border-radius: 15px;
     cursor: pointer;
     font-size: 16px;
-    transition: background-color 0.3s; /* Transition for button */
+    transition: background-color 0.3s;
 }
 
 button:hover {
-    background-color: #FF8C00; /* Button hover color */
+    background-color: #922b2b;
 }
 
 .recipes-list {
@@ -67,37 +69,63 @@ button:hover {
 }
 
 .recipe-item {
-    border: 1px solid #e0e0e0;
+    border: 8px solid #C5E7E2;
     border-radius: 5px;
     padding: 15px;
     margin-bottom: 10px;
-    background-color: #f9fbe7; /* Light green background for recipes */
+    background-color: #ffffff;
     transition: background-color 0.3s;
+    cursor: pointer; /* Cambia il cursore per indicare che è cliccabile */
 }
 
 .recipe-item:hover {
-    background-color: #f0f4c3; /* Hover color for recipe */
+    background-color: #C5E7E2;
 }
 
 .recipe-item h3 {
     margin: 0 0 10px;
-    color: #6B4F4F; /* Dark red for recipe titles */
+    color: #627264;
 }
 
 .recipe-item p {
     margin: 0;
-    color: #4B4B4B; /* Dark gray for text */
+    color: #FE4A49;
+}
+
+.recipe-item h5 {
+    margin: 0;
+    color: #5c5c5c;
 }
 
 .allergens {
-    margin-top: 10px;
-    padding: 10px;
-    background-color: #ffe0b2; /* Light orange for allergens */
-    border-radius: 5px;
+    color: #FF5722;
+    font-weight: bold;
+    margin-top: 5px;
 }
 
 footer {
     text-align: center;
     margin-top: 20px;
     color: #777;
+}
+
+.table-container {
+    margin-top: 20px;
+    display: none; /* Nasconde inizialmente la tabella */
+}
+
+.table-container table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table-container th, .table-container td {
+    border: 1px solid #e0e0e0;
+    padding: 8px;
+    text-align: left;
+}
+
+.table-container th {
+    background-color: #C5E7E2;
+    color: black;
 }
