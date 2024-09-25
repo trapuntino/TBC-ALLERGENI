@@ -1,0 +1,103 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #eef2f3; /* Soft background color */
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: #ffffff; /* Container background */
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #d85d0d; /* Warm orange for title */
+    font-size: 2.5em; /* Title size */
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #6B4F4F; /* Dark red for subtitles */
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 12px; /* Comfortable padding */
+    font-size: 16px;
+    border: 2px solid #d85d0d; /* Warm orange border */
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Input shadow */
+    margin-bottom: 20px; /* Space below inputs */
+    resize: vertical; /* Allow vertical resizing for textareas */
+}
+
+input[type="text"]:focus,
+textarea:focus {
+    border-color: #FF8C00; /* Active border color */
+    outline: none; /* Remove default outline */
+}
+
+button {
+    background-color: #d85d0d; /* Button background color */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s; /* Transition for button */
+}
+
+button:hover {
+    background-color: #FF8C00; /* Button hover color */
+}
+
+.recipes-list {
+    margin-top: 20px;
+}
+
+.recipe-item {
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: #f9fbe7; /* Light green background for recipes */
+    transition: background-color 0.3s;
+}
+
+.recipe-item:hover {
+    background-color: #f0f4c3; /* Hover color for recipe */
+}
+
+.recipe-item h3 {
+    margin: 0 0 10px;
+    color: #6B4F4F; /* Dark red for recipe titles */
+}
+
+.recipe-item p {
+    margin: 0;
+    color: #4B4B4B; /* Dark gray for text */
+}
+
+.allergens {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #ffe0b2; /* Light orange for allergens */
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #777;
+}
